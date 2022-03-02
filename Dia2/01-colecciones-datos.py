@@ -82,4 +82,5 @@ cursos.append('otra cosa')
 
 
 #Conjuntos ( Set )
-#Coleccion de datos DESORDENADA, una vez que se crea ya no se acceder a
+#Coleccion de datos DESORDENADA, una vez que se crea ya no se acceder a las posiciones de sus elementos
+estaciones = {'Verano','Otonio','Primavera',}
