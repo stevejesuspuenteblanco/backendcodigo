@@ -23,3 +23,28 @@ for numero in range(5,10,2):
 
 #imprimir los tres valores iniciales de notas
 
+aprobados=['Pedro','Eduardo','Maria','Fatima']
+
+for aprobado in aprobados:
+    if(aprobado == 'Pedro'):
+        print('Pedro esta aprobado')
+        break
+    print('El aprobado es:',aprobado)
+else: 
+    print('Termino ejecutarse el for de manera normal')
+#else se ejecutara siempre que termine el bucle
+print('Termino de ejecutarse el for')
+
+
+productos=['Manzanas','Peras','Tallarines','Tazas']
+
+busqueda = input('Ingrese el producto a buscar:')
+
+for producto in productos:
+    if producto == busqueda:
+        print('El producto si esta en la tienda')
+        break
+else:
+    print('No se encontro el producto')   
+
+print('Igual yo me ejecuto') 
